@@ -1,7 +1,7 @@
 # rpi-cpu-alarm
 App for notify the CPU Temperature on Raspberry Pi via Mail<p>
 
-Install:<p> 
+<b>Install:<p></b> 
 
 git clone https://github.com/unixweb/rpi-cpu-alarm<p>
 

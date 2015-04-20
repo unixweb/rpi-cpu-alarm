@@ -8,7 +8,7 @@ git clone https://github.com/unixweb/rpi-cpu-alarm
 
 Define your Variables:
 
-mailserver = "XXXX.de"   	      Add your SMTP-Mailserver
+mailserver = "XXXX.de"   	      Add your SMTP-Mailserver<p>
 smtpport = 25             	    Add your SMTP-Mailserver Port mostly Port :25
 smtpuser = "XXXX"         	    Add your Username example :  myusername@gmail.com
 smtpasswd = "XXXXX"       	    Add your Password for SMTP-Mail Delivery

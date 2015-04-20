@@ -6,7 +6,7 @@ App for notify the CPU Temperature on Raspberry Pi via Mail<p>
 git clone https://github.com/unixweb/rpi-cpu-alarm<p>
 
 
-Define your Variables:<p>
+<b>Define your Variables:<p></b>
 
 mailserver = "XXXX.de"   	      Add your SMTP-Mailserver<p>
 smtpport = 25             	    Add your SMTP-Mailserver Port mostly Port :25<p>
@@ -16,6 +16,6 @@ recipient = "XXXX@XXXX.de"      Add your Mailaddresss example : myusername@gmail
 smtpsender = "alarm@XXXX.de"    Add your Mailaddress whatever you like<p>
 alarmtemp =  55                 Change for testing to 20 only<p>
 
-Create Crontab Entry:<p>
+<b>Create Crontab Entry:<p></b>
 
 */15 *   * * *  pi /usr/bin/python  /home/pi/rpi-cpu-alarm/alarm.py <p>

@@ -11,7 +11,7 @@ smtpuser = "XXXX"
 smtpasswd = "XXXXX"
 recipient = "XXXX@XXXX.de"
 smtpsender = "alarm@XXXX.de"
-alarmtemp =  55
+alarmtemp =  25
 
 day = repr(time.localtime()[2]) + "."+repr(time.localtime()[1])+"."+repr(time.localtime()[0])
 zeit = repr(time.localtime()[3]) + ":" + repr(time.localtime()[4]) + ":"+ repr(time.localtime()[5])

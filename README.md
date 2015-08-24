@@ -20,5 +20,6 @@ alarmtemp =  55                 Change for testing to 20 only<p>
 
 sudo vi /etc/cron.d/pi-alarm<p>
 */15 *   * * *  pi /usr/bin/python  /home/pi/rpi-cpu-alarm/alarm.py <p>
+*/15 *   * * *  pi /usr/bin/python  /home/pi/rpi-cpu-alarm/pushover.py <p>
 
 <img src="http://blog.unixweb.de/wp-content/uploads/2015/08/raspberry-pi-temperatur-ueberwachung.png">
